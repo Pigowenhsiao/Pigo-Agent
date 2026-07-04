@@ -1,0 +1,47 @@
+{
+  "defaultProvider": "minimax",
+  "defaultModel": "MiniMax-M2.7",
+  "lastChangelogVersion": "0.80.3",
+  "skills": [
+    "C:/Users/pigow/.codex/skills",
+    "!C:/Users/pigow/.agents/skills/**"
+  ],
+  "prompts": [
+    "C:/Users/pigow/.pi/agent/prompts"
+  ],
+  "defaultThinkingLevel": "minimal",
+  "packages": [
+    "npm:pi-subagents",
+    "npm:pi-intercom",
+    "npm:pi-prompt-template-model"
+  ],
+  "subagents": {
+    "agentOverrides": {
+      "scout": {
+        "model": "openrouter/deepseek/deepseek-v4-pro"
+      },
+      "researcher": {
+        "model": "openrouter/deepseek/deepseek-v4-pro"
+      },
+      "planner": {
+        "model": "openrouter/deepseek/deepseek-v4-pro"
+      },
+      "worker": {
+        "model": "openrouter/deepseek/deepseek-v4-pro"
+      },
+      "reviewer": {
+        "model": "openrouter/deepseek/deepseek-v4-pro"
+      },
+      "context-builder": {
+        "model": "openrouter/deepseek/deepseek-v4-pro"
+      },
+      "oracle": {
+        "model": "openrouter/deepseek/deepseek-v4-pro"
+      },
+      "delegate": {
+        "model": "openrouter/deepseek/deepseek-v4-pro"
+      }
+    }
+  },
+  "theme": "dark"
+}

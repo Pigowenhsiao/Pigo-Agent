@@ -1,0 +1,32 @@
+{
+  "providers": {
+    "llamacpp": {
+      "baseUrl": "http://localhost:8080/v1",
+      "api": "openai-completions",
+      "apiKey": "ollama",
+      "compat": {
+        "supportsDeveloperRole": false,
+        "supportsReasoningEffort": true
+      },
+      "models": [
+        {
+          "id": "Qwythos-9B-Claude-Mythos-5-1M-MTP-Q4_K_M.gguf",
+          "name": "Qwythos 9B Q4_K_M (Local)",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": null
+          },
+          "input": ["text"],
+          "contextWindow": 1000000,
+          "maxTokens": 32000,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          }
+        }
+      ]
+    }
+  }
+}
