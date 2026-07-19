@@ -1,7 +1,7 @@
 {
   "defaultProvider": "minimax",
   "defaultModel": "MiniMax-M2.7",
-  "lastChangelogVersion": "0.80.3",
+  "lastChangelogVersion": "0.80.10",
   "skills": [
     "C:/Users/pigow/.codex/skills",
     "!C:/Users/pigow/.agents/skills/**"
